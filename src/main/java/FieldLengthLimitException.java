@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class FieldLengthLimitException {
+public class FieldLengthLimitException extends Exception{
+    public FieldLengthLimitException(String msg) {
+        super(msg);
+    }
 }
